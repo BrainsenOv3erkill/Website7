@@ -1,0 +1,57 @@
+@font-face {
+    font-family: dogtown;
+    src: url(Dogtown\ Typewriter.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: dogtown;
+    text-align: center;
+}
+
+nav {
+    background-color: #5d5d5d;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a {
+    float: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #999;
+    color: rgb(22, 22, 22);
+}
+
+body.home {
+    background-color: lightblue;
+    
+}
+
+body.about {
+    background-color: rgb(156, 175, 156);
+}
+
+body.contact {
+    background-color: rgb(179, 136, 136);
+}
+
+body.imprint {
+    background-color: lightyellow;
+}
+
+body.privacy {
+    background-color: lightgrey;
+}
+
+h1 {
+    text-shadow: #999;
+    text-shadow: 2px 2px 5px;
+    margin-top: 50px;
+}
